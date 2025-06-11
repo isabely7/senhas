@@ -108,6 +108,7 @@ body{
 
 label{
     font-size: 20px;
+
 }
 
 .checkbox{
@@ -115,18 +116,39 @@ label{
     height: 20px;
 }
 
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
 
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
 
+}
 
+.fraca{
+    width: 25%;
+    background-color: #e71832;
+}
 
+.media{
+    width: 50%;
+    background-color: #faf440;
 
+}
 
+.forte{
+    width: 100%;
+    background-color: #00FF85;
+}
 
-
-
-
-
-
+.parametro-senha__texto{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
